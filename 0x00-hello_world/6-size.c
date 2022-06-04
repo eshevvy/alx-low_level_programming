@@ -4,17 +4,21 @@
  * Return: gives a return value of 0 when main is executed successfully 
  * otherwise, non-zero
  * char c - denotes single character
- * double d - denotes double
  * int i - denotes interger
- * %lu - denotes printing format for various outputs
+ * %d - denotes printing format for various outputs
  */
 int main(void)
 {
-	int i;
-	double d;
 	char c;
-	printf("the size of an integer i is: %lu.\n", (unsigned long)sizeof(i));
-	printf("the size of a double is: %lu.\n", (unsigned long)sizeof(d));
-	printf("the size of a c is: %lu.\n", (unsigned long)sizeof(c));
+	int i;
+	long int li;
+	long long int lli;
+	float f;
+
+	printf("Size of a char is: %ld byte(s)\n", sizeof(char));
+	printf("Size of an integer is: %ld byte(s)\n", sizeof(int));
+	printf("Size of a long integer is: %ld byte(s)\n", sizeof(long int));
+	printf("Size of a long long integer is: %ld byte(s)\n", sizeof(long long int));
+	printf("Size of a float is: %ld byte(s)\n", sizeof(float));
 	return (0);
 }
