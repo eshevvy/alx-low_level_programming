@@ -4,16 +4,13 @@
  * Return: gives a value of zero, if functions main executes successfully,
  * non-zero otherwise.
  */
-# define char  a /* first lower case letter of the alphabet */
-# define z    25 /* last lower case letter of the alphabet */
-# define step  1 /* step size */
 int main(void)
 {
-	int char;
+	char ch;
 
-	for (char =a; a <= z; a == a+step)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(a);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
