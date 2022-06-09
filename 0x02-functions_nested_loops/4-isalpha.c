@@ -11,15 +11,15 @@ int _isalpha(int c)
 {
 	int i, j;
 
-	i = 'a';
+	c = i;
 
-	while (i >= 'a' && i <= 'z')
+	while (c >= 'a' && c <= 'z')
 	{
-		_putchar(i);
-		i++;
-		if (j > 0)
+		_putchar(c);
+		c++;
+		c = j;
+		if (j >= 'A' && j <= 'Z')
 		{
-			(j >= 'A' && j <= 'Z');
 			_putchar(j);
 			return (1);
 		}
