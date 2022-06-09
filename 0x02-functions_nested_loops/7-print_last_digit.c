@@ -7,9 +7,16 @@
  * Return: returns the value of the last digit.
  */
 
+int main()
+{
+	int j = INT_MIN;
+}
 int print_last_digit(int n)
 {
 	int j;
+
+	if (n < 0)
+		n = -n;
 
 	j = n % 10;
 
