@@ -9,21 +9,17 @@
  */
 int _isalpha(int c)
 {
-	int i, j;
-
-	c = i;
-
-	while (c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		_putchar(c);
 		c++;
-		c = j;
-		if (j >= 'A' && j <= 'Z')
-		{
-			_putchar(j);
-			return (1);
-		}
-		else
-			return (0);
 	}
+	else if (c >= 'A' && c <= 'Z')
+	{
+		_putchar(c);
+		c++;
+		return (1);
+	}
+	else
+		return (0);
 }
