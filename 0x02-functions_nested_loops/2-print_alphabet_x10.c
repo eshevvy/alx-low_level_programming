@@ -1,7 +1,7 @@
 # include "main.h"
 
 /**
- * print_alphabet_x10 - a function that prints 10 times the 
+ * print_alphabet_x10 - a function that prints 10 times the
  * alphabets, in lower case, followed by a new line.
  */
 void print_alphabet_x10(void)
