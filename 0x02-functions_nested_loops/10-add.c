@@ -8,8 +8,7 @@
 int add(int x, int y)
 {
 	int z;
-	z = x + y;
 
-	if (x > 0 && y > 0)
-		return (z);
+	z = x + y;
+	return (z);
 }
