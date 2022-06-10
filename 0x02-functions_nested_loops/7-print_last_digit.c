@@ -7,13 +7,6 @@
  * Return: returns the value of the last digit.
  */
 
-int main()
-{
-	int j = INT_MIN;
-	
-	_putchar(j + '0');
-	return (j);
-}
 int print_last_digit(int n)
 {
 	int j;
