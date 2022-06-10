@@ -2,6 +2,8 @@
 
 /**
  * add - function that adds two integers and returns the result.
+ * @x: integer argument.
+ * @y: integer argument.
  * Return: integer
  */
 
