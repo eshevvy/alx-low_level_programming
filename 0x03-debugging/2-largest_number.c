@@ -11,19 +11,18 @@
 int largest_number(int a, int b, int c)
 {
 	int largest;
-	largest = largest_number(a, b, c);
 
 	if ((a > b) && a > c)
 	{
-		largest = a;
+		largest = largest_number(a);
 	}
 	else if ((b > a) && b > c)
 	{
-		largest = b;
+		largest = largest_number(b);
 	}
 	else
 	{
-		largest = c;
+		largest = largest_number(c);
 	}
 
 	return (largest);
