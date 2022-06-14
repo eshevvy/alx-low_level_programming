@@ -7,13 +7,5 @@
  */
 void reset_to_98(int *n)
 {
-
 	int *n = 98;
-
-	int *np;
-
-	np = &*n;
-	_putchar((n / 10) + '0');
-	_putchar((n % 10) + '0');
-	_putchar('\n');
 }
