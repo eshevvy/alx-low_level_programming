@@ -10,8 +10,6 @@ int _strlen(char *s)
 {
 	int count = 0;
 
-	char *s;
-
 	s = "God is great";
 
 	count = _strlen(s);
