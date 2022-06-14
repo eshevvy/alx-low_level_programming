@@ -8,11 +8,12 @@
  */
 int _strlen(char *s)
 {
-	int count = 0;
+	int i;
 
-	s = "God is great";
+	i = 0;
 
-	count = _strlen(s);
-
-	return (count);
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		return (i);
+	}
 }
