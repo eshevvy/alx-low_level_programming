@@ -10,11 +10,11 @@ int _strlen(char *s)
 {
 	int count = 0;
 
-	char length;
+	char *str;
 
-	length = *s;
+	str = "God is great";
 
-	count = strlen(char *s);
+	count = _strlen(str);
 
 	return (count);
 }
