@@ -8,19 +8,23 @@
 
 void print_array(int *a, int n)
 {
-	int i, j;
+	int i;
 
-	j = *a;
-	
-	while (j = 0; != '\0')
-	{
-		j++;
-	}
-	i = n;
+	i = 0;
 
-	for (i = 0; i < j; i++)
+	for (i = 0; i < n; i++)
 	{
-		_putchar(*a[i]);
+		if (i == 0)
+		{
+			_putchar(a[i]);
+		}
+		else if (i > 0)
+		{
+			_putchar(',');
+			_putchar(' ');
+			_putchar(' ');
+			_putchar(a[i]);
+		}
+		_putchar(a[i]);
 	}
-	_putchar('\n');
 }
