@@ -9,7 +9,7 @@
  * @dest: destination for copied string.
  * Return value: the pointer to dest.
  */
-
+char *
 char *_strcpy(char *dest, char *src)
 {
 	size_t i, n;
@@ -19,5 +19,5 @@ char *_strcpy(char *dest, char *src)
 	for (n = 0; n < i; n++)
 		dest[i] = '\0';
 
-	return (dest); /* return value of _strcpy */
+	return (dest);
 }
