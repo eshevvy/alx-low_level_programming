@@ -7,10 +7,10 @@
  * the terminating null byte '\0' character.
  * @src: pointer to string
  * @dest: destination for copied string.
- * Return value: the pointer to dest.
+ * Return: the pointer to dest.
  */
 
-char *_strcpy(char *dest, char *src) /* char - return value of strcpy */
+char *_strcpy(char *dest, char *src)
 {
 	size_t i, n;
 
