@@ -5,6 +5,8 @@
 /**
  * _strcpy - function that copies the string pointed to by src including
  * the terminating null byte '\0' character.
+ * @src: pointer to string
+ * @dest: destination for copied string.
  * Return value: the pointer to dest.
  */
 
