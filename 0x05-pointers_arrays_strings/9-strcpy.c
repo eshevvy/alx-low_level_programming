@@ -7,7 +7,6 @@
  * the terminating null byte '\0' character.
  * @src: pointer to string
  * @dest: destination for copied string.
- * @char: return value of string copy.
  * Return value: the pointer to dest.
  */
 
@@ -20,5 +19,5 @@ char *_strcpy(char *dest, char *src)
 	for (n = 0; n < i; n++)
 		dest[i] = '\0';
 
-	return (dest);
+	return (dest); /* return value of _strcpy */
 }
