@@ -1,9 +1,9 @@
-# include "main.h"
+# include "main.hi"
 # include <string.h>
 # include <stdio.h>
 
 /**
- * _strcpy - function that copies the string pointed to by src including
+ * *_strcpy - function that copies the string pointed to by src including
  * the terminating null byte '\0' character.
  * @src: pointer to string
  * @dest: destination for copied string.
@@ -12,7 +12,7 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int i, n;
+	size_t i, n;
 
 	for (i = 0; src[i] != '\0'; i++)
 		dest[i] = src[i];
