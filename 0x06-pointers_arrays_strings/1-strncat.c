@@ -13,7 +13,7 @@
  * Return: returns pointer to dest string.
  */
 
-char *_strncat(char *dest, char *src int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	size_t i, j;
 
