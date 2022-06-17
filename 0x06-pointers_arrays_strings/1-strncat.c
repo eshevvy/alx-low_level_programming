@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *_strcat - function that concatenates two strings. It appends the src
+ * *_strncat - function that concatenates two strings. It appends the src
  * string to the dest string, overwriting the terminating null byte (\0) at
  * the end of dest, and adds a terminating null byte.
  *
@@ -13,7 +13,7 @@
  * Return: returns pointer to dest string.
  */
 
-char *_strcat(char *dest, char *src int n)
+char *_strncat(char *dest, char *src int n)
 {
 	size_t i, j;
 
